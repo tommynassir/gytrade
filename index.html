@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GYTRADE - 全球贸易服务平台</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- 导航栏 -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">GY<span>TRADE</span></a>
+      <ul class="nav-links">
+        <li><a href="#home">首页</a></li>
+        <li><a href="#services">服务</a></li>
+        <li><a href="#about">关于</a></li>
+        <li><a href="#contact">联系</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-primary">开始合作</a>
+    </div>
+  </nav>
+
+  <!-- Hero 区域 -->
+  <section id="home" class="hero">
+    <div class="container hero-content">
+      <h1>连接全球，<span class="highlight">贸易无忧</span></h1>
+      <p>GYTRADE 为企业提供高效的跨境贸易解决方案，涵盖进出口代理、物流追踪、供应链管理等一站式服务。</p>
+      <div class="hero-buttons">
+        <a href="#services" class="btn btn-primary">了解服务</a>
+        <a href="#contact" class="btn btn-secondary">联系我们</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number">50+</span>
+          <span class="stat-label">合作国家</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">1000+</span>
+          <span class="stat-label">企业客户</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">99%</span>
+          <span class="stat-label">客户满意度</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 服务区域 -->
+  <section id="services" class="services">
+    <div class="container">
+      <h2 class="section-title">我们的服务</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">🚢</div>
+          <h3>进出口代理</h3>
+          <p>专业的报关报检服务，简化进出口流程，确保合规高效通关。</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">📦</div>
+          <h3>国际物流</h3>
+          <p>海运、空运、铁路多式联运，实时追踪，准时送达全球各地。</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🌐</div>
+          <h3>供应链管理</h3>
+          <p>优化供应链流程，降低运营成本，提升整体贸易效率。</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">💼</div>
+          <h3>贸易咨询</h3>
+          <p>专业的市场分析、政策解读，为您的贸易决策提供数据支持。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 关于区域 -->
+  <section id="about" class="about">
+    <div class="container about-content">
+      <div class="about-text">
+        <h2 class="section-title">关于 GYTRADE</h2>
+        <p>GYTRADE 成立于2020年，是一家专注于跨境贸易服务的专业平台。我们致力于帮助企业拓展国际市场，降低贸易壁垒，实现全球化发展。</p>
+        <p>凭借丰富的行业经验和全球化的服务网络，我们已与50多个国家和地区建立了稳定的合作关系，服务超过1000家企业客户。</p>
+      </div>
+      <div class="about-features">
+        <div class="feature">
+          <span class="feature-num">01</span>
+          <span>全球化服务网络</span>
+        </div>
+        <div class="feature">
+          <span class="feature-num">02</span>
+          <span>专业合规团队</span>
+        </div>
+        <div class="feature">
+          <span class="feature-num">03</span>
+          <span>一站式解决方案</span>
+        </div>
+        <div class="feature">
+          <span class="feature-num">04</span>
+          <span>7×24 小时支持</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 联系区域 -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">联系我们</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <span class="contact-label">邮箱</span>
+            <span class="contact-value">contact@gytrade.com</span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">电话</span>
+            <span class="contact-value">+86 400-888-8888</span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">地址</span>
+            <span class="contact-value">中国 · 上海市</span>
+          </div>
+        </div>
+        <form class="contact-form" onsubmit="handleSubmit(event)">
+          <input type="text" name="name" placeholder="您的姓名" required>
+          <input type="email" name="email" placeholder="您的邮箱" required>
+          <textarea name="message" placeholder="请描述您的需求..." rows="4" required></textarea>
+          <button type="submit" class="btn btn-primary btn-full">发送消息</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 GYTRADE. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
